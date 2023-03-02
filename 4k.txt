@@ -1,0 +1,169 @@
+@media screen and (max-width: 2560px){
+  .container-navbar{
+    width: 98vw;
+  }
+
+  .wrapper {
+    height: 80px ;
+  }
+
+  .wrapper.sticky ul li a{
+    font-size: 20px;
+  }
+
+  .navigation li a {
+    font-size: 24px;
+  }
+
+  /* body */
+
+  .about-konten {
+    padding: 160px;
+    padding-bottom: 0;
+  }
+
+  .about-konten img {
+    width: 600px;
+    border: 2px solid black;
+  }
+
+  .about-text h1 {
+    font-size: 60px;
+    text-align: start;
+    margin: 0;
+    color: #ff00ea;
+    font-weight: bold;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  .nama-p {
+    font-size: 28px;
+  }
+
+  .nama-p2 {
+    font-size: 32px;
+  }
+
+  .nama-p3 {
+    text-align: start;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 28px;
+  }
+
+
+  /* skills */
+
+  .skills-text h1 {
+    font-size: 38px;
+  }
+
+    .skills button {
+      width: 140px;
+      height: 40px;
+      font-size: 15px;
+    }
+
+    .card-body {
+      justify-content: space-evenly;
+      margin: 30px 0px;
+    }
+
+    .card {
+      width: 480px;
+      height: 280px;
+    }
+
+    .card-konten img {
+      padding-top: 12%;
+      width: 50px;
+      height: 50px;
+    }
+
+    .card-konten h2 {
+      color: white;
+      font-size: 26px;
+    }
+
+    .card-konten p {
+      font-size: 18px;
+      color: #7d858c;
+      margin: 6px;
+    }
+
+    /* experience */
+
+    .experience {
+      margin: 100px;
+    }
+
+    .exp-konten {
+      width: 560px;
+      height: 280px;
+      font-size: 16px;
+    }
+
+    .exp-card2 h1 {
+      margin: 5px;
+      font-size: 48px;
+    }
+
+    .exp-card2 p {
+      margin: 5px;
+      font-size: 20px;
+    }
+
+    /* project */
+
+    .pro-text h1 {
+      margin-bottom: 10px;
+      font-size: 38px;
+    }
+
+    .pro-text p {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .pro-konten {
+      width: 800px;
+      height: 400px;
+    }
+
+    /* social media */
+
+    .social-media {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .social-media a {
+      font-size: 35px;
+
+    }
+  
+}
+
+function garasi(mobil, bensin) {
+  let garasi = {};
+  garasi.mobil = mobil;
+  garasi.bensin = bensin;
+
+  garasi.hidupkan = function (jarak) {
+    this.bensin += jarak;
+    return console.log(` halo  ${this.mobil}, selamat makan!`);
+  };
+  garasi.jalan = function (waktu) {
+    this.bensin -= waktu * 2;
+    return console.log(` halo  ${this.mobil}, staminamu berkurang setelah bermain`);
+  };
+  return garasi;
+}
+
+let mobil1 = garasi("avanza", 30);
+let mobil2 = garasi("BMW", 100);
+
+
+
