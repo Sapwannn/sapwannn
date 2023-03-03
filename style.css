@@ -299,6 +299,12 @@ body {
   gap: 0.5rem;
 }
 
+.item-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .exp-card {
   display: flex;
   flex-direction: row;
@@ -420,7 +426,7 @@ body {
 }
 
 
-/* responsive hp kecil */
+/* responsive */
 
 @media screen and (max-width: 1502px){
   .container-navbar {
@@ -704,7 +710,7 @@ body {
 
 }
 
-@media screen and (max-width: 853px){
+@media screen and (max-width: 820px){
   .container-navbar {
 
   }
@@ -782,7 +788,7 @@ body {
   /* exp */
 
   .exp-container {
-    gap: 0;
+    gap: 20px;
   }
 
   .exp-card2 h1{
@@ -820,8 +826,8 @@ body {
   }
 
   .pro-konten {
-    width: 400px;
-    height: 200px;
+    width: 360px;
+    height: 160px;
   }
 
   .pro-konten h1 {
@@ -830,6 +836,1260 @@ body {
 
   .pro-konten p {
     font-size: 10px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 743px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 70vh;
+  }
+
+  .about-konten img {
+    width: 180px;
+  }
+  .about-text h1 {
+    font-size: 16px;
+  }
+  .about-text p {
+    text-align: start;
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    text-align: start;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 900px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 300px;
+    height: 160px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .card-konten p {
+    font-size: 10px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 260px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 340px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 20px;
+  }
+
+  .pro-konten p {
+    font-size: 8px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 700px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 70vh;
+  }
+
+  .about-konten img {
+    width: 180px;
+  }
+  .about-text h1 {
+    font-size: 16px;
+  }
+  .about-text p {
+    text-align: start;
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    text-align: start;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 900px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 260px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 320px;
+    height: 130px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 658px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 70vh;
+  }
+
+  .about-konten img {
+    width: 180px;
+  }
+  .about-text h1 {
+    font-size: 16px;
+  }
+  .about-text p {
+    text-align: start;
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    text-align: start;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 1220px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 260px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 290px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 568px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 70vh;
+  }
+
+  .about-konten img {
+    width: 140px;
+  }
+  .about-text h1 {
+    font-size: 13px;
+  }
+  .about-text p {
+    text-align: start;
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 5px;
+  }
+  .nama-p2 {
+    font-size: 7px;
+  }
+  .nama-p3 {
+    text-align: start;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 10px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 1220px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 250px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 290px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 540px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 70vh;
+  }
+
+  .about-konten img {
+    width: 180px;
+  }
+  .about-text h1 {
+    font-size: 16px;
+  }
+  .about-text p {
+    text-align: start;
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    text-align: start;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 1220px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 230px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 290px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 500px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 90vh;
+  }
+
+  .about-konten {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0;
+    gap: 10px;
+  }
+
+  .about-konten img {
+    align-self: center;
+    width: 240px;
+  }
+  .about-text{
+    align-self: start;
+    margin: 0;
+  }
+  .about-text h1 {
+    font-size: 18px;
+  }
+  .about-text p {
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    margin-top: 3%;
+    text-align: start;
+    padding: 40px;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 1220px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 220px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 290px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 468px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 90vh;
+  }
+
+  .about-konten {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0;
+    gap: 10px;
+  }
+
+  .about-konten img {
+    align-self: center;
+    width: 240px;
+  }
+  .about-text{
+    align-self: start;
+    margin: 0;
+  }
+  .about-text h1 {
+    font-size: 18px;
+  }
+  .about-text p {
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    margin-top: 3%;
+    text-align: start;
+    padding: 40px;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 1220px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+  .exp-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 210px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 290px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 8vh;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 420px){
+  .container-navbar {
+
+  }
+
+  /* body */
+
+  .about {
+    height: 90vh;
+  }
+
+  .about-konten {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0;
+    gap: 10px;
+  }
+
+  .about-konten img {
+    align-self: center;
+    width: 240px;
+  }
+  .about-text{
+    align-self: start;
+    margin: 0;
+  }
+  .about-text h1 {
+    font-size: 18px;
+  }
+  .about-text p {
+    margin: 5px;
+  }
+  .nama-p {
+    font-size: 8px;
+  }
+  .nama-p2 {
+    font-size: 10px;
+  }
+  .nama-p3 {
+    margin-top: 3%;
+    text-align: start;
+    padding: 40px;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+
+  /* skills */
+
+  .skills {
+    height: 1450px;
+  }
+
+  .skills-text h1 {
+    font-size: 20px;
+  }
+
+  .skills button {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 140px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px 20px;
+    justify-content: center;
+  }
+
+  .card-konten h2 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .card-konten p {
+    font-size: 8px;
+    color: #7d858c;
+    margin: 2px;
+  }
+
+  .card-konten img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* exp */
+
+
+  .experience {
+    margin: 20px;
+  }
+
+  .exp-container {
+  }
+
+  .exp-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exp-card2 h1{
+    margin: 1px;
+    font-size: 16px;
+  }
+
+  .exp-card2 p {
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .exp-konten {
+    width: 220px;
+    height: 120px;
+  }
+
+  .exp-konten h1 {
+    font-size: 18px;
+  }
+
+  .exp-konten p {
+    font-size: 8px;
+  }
+
+  /* project */
+
+  .pro-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro-text h1 {
+    font-size: 20px;
+  }
+
+  .pro-text p {
+    font-size: 10px;
+  }
+
+  .pro-konten {
+    width: 290px;
+    height: 140px;
+  }
+
+  .pro-konten h1 {
+    font-size: 18px;
+  }
+
+  .pro-konten p {
+    font-size: 6px;
   }
 
   /* footer */
